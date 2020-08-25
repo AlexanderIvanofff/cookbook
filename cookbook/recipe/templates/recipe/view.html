@@ -10,7 +10,7 @@
 
 <ul>
     {% for ingredient in recipe.ingredients.all %}
-    <li> {{ingredient.title}} </li>
+    <li> {{ingredient.title}} - {{ ingredient.quantity }} </li>
     {%endfor%}
 </ul>
 
