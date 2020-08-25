@@ -15,3 +15,10 @@ def list_recipe(request):
         "recipes": recipes,
         'form': form
     })
+
+
+def view_recipe(request, recipe_id):
+    recipe = Recipe.objects.get(id=recipe_id)
+    return render(request, 'recipe/view.html', context={
+        'recipe': recipe
+    })
