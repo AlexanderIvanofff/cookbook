@@ -2,10 +2,17 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Recipe</title>
+    <title>Recip</title>
 </head>
 <body>
 <a href="/recipes/">Back to recipes</a>
 <h1>{{recipe.title}}</h1>
+
+<ul>
+    {% for ingredient in recipe.ingredients.all %}
+    <li> {{ingredient.title}} </li>
+    {%endfor%}
+</ul>
+
 </body>
 </html>

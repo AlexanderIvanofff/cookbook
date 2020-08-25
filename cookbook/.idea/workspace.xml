@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0226ebaa-155c-4e5b-b9b2-c66731428d92" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cookbook/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/cookbook/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recipe/templates/recipe/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/recipe/templates/recipe/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recipe/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/recipe/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/recipe/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe/templates/recipe/view.html" beforeDir="false" afterPath="$PROJECT_DIR$/recipe/templates/recipe/view.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

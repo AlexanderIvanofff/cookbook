@@ -9,7 +9,7 @@ class Recipe(models.Model):
 
 
 class Ingredient(models.Model):
-    recipe = models.ForeignKey(Recipe, related_name='ingredient', on_delete=models.CASCADE)
+    recipe = models.ForeignKey(Recipe, related_name='ingredients', on_delete=models.CASCADE)
     title = models.CharField(max_length=90)
     quantity = models.IntegerField(default=0)
 
